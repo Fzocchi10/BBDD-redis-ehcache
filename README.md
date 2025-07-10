@@ -65,7 +65,6 @@ spring.jpa.show-sql=true
 En raw JSON
  ```
  {
-    "id" : ..UUID,
     "nombre": ..nombre_aeropuerto,
     "ciudad": ..ciudad_aeropuerto,
     "pais": ..pais_aeropuerto
