@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import aeropuerto_api.tp.entity.Aeropuerto;
 import aeropuerto_api.tp.entity.Avion;
 import aeropuerto_api.tp.service.AvionService;
 

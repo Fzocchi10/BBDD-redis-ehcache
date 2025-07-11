@@ -22,7 +22,7 @@ import aeropuerto_api.tp.entity.Aeropuerto;
 public class EhCacheConfig {
 
 	  @Bean
-	  public CacheManager EhcacheManager() {
+	  public CacheManager ehcacheManager() {
 	    CacheConfiguration<UUID, Aeropuerto> cacheConfiguration = 
 	    CacheConfigurationBuilder.newCacheConfigurationBuilder(UUID.class,
 	    		Aeropuerto.class, 
