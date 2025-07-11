@@ -65,7 +65,6 @@ spring.jpa.show-sql=true
 En raw JSON
  ```
  {
-    "id" : ..UUID,
     "nombre": ..nombre_aeropuerto,
     "ciudad": ..ciudad_aeropuerto,
     "pais": ..pais_aeropuerto
@@ -73,6 +72,15 @@ En raw JSON
 ```
 
 Deberias crear un Aeropuerto
+
+  > POST http:/localhost:8080/avion
+En raw JSON
+```
+{
+    "nombre": "'Boeing 737-800",
+    "total_de_asientos": 251
+}
+```
 
 ## Cómo correrlo
 
