@@ -73,6 +73,15 @@ En raw JSON
 
 Deberias crear un Aeropuerto
 
+  > POST http:/localhost:8080/avion
+En raw JSON
+```
+{
+    "nombre": "'Boeing 737-800",
+    "total_de_asientos": 251
+}
+```
+
 ## Cómo correrlo
 
 ### Configuracion local y entorno de Desarrollo
